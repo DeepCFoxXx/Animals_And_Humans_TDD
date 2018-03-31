@@ -22,4 +22,9 @@ public class TestHuman {
         assertEquals("In and out", Kara.breathe());
     }
 
+    @Test
+    public void canWalk(){
+        assertEquals("Such a perfect day, the animals in the zoo", Kara.walk());
+    }
+
 }
