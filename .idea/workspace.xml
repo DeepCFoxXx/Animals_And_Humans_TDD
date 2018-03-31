@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327698c0-b7a6-4ec4-9f7a-888efe78f6b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mammal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestMammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMammal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#50#51#0" expanded="true" />
                 <element signature="e#81#82#0" expanded="true" />
@@ -74,14 +73,18 @@
       <file leaf-file-name="TestMammal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestMammal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="349">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -616,7 +619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMammal.canBreathe">
+  <component name="RunManager" selected="JUnit.TestChimpanzee.canEat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -640,12 +643,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestAnimal.canEat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChimpanzee.canEat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalsAndHumans_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAnimal" />
+      <option name="MAIN_CLASS_NAME" value="TestChimpanzee" />
       <option name="METHOD_NAME" value="canEat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -681,6 +684,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMammal" />
       <option name="METHOD_NAME" value="canEat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestMammal.canTalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalsAndHumans_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMammal" />
+      <option name="METHOD_NAME" value="canTalk" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -743,17 +763,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestAnimal.canEat" />
       <item itemvalue="JUnit.TestAnimal.canBreathe" />
       <item itemvalue="JUnit.TestMammal.canEat" />
       <item itemvalue="JUnit.TestMammal.canBreathe" />
+      <item itemvalue="JUnit.TestMammal.canTalk" />
+      <item itemvalue="JUnit.TestChimpanzee.canEat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestChimpanzee.canEat" />
+        <item itemvalue="JUnit.TestMammal.canTalk" />
         <item itemvalue="JUnit.TestMammal.canBreathe" />
         <item itemvalue="JUnit.TestMammal.canEat" />
         <item itemvalue="JUnit.TestAnimal.canBreathe" />
-        <item itemvalue="JUnit.TestAnimal.canEat" />
       </list>
     </recent_temporary>
   </component>
@@ -780,6 +802,12 @@
     <history-entry file="TestAnimal_canBreathe - 2018.03.31 at 15h 06m 36s.xml">
       <configuration name="TestAnimal.canBreathe" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMammal_canEat - 2018.03.31 at 15h 10m 52s.xml">
+      <configuration name="TestMammal.canEat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMammal_canBreathe - 2018.03.31 at 15h 13m 41s.xml">
+      <configuration name="TestMammal.canBreathe" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -793,12 +821,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27448276" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -879,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#50#51#0" expanded="true" />
             <element signature="e#81#82#0" expanded="true" />
@@ -892,14 +920,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestMammal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="349">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
           </folding>
         </state>
       </provider>

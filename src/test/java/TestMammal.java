@@ -22,4 +22,9 @@ public class TestMammal {
         assertEquals("In and out", mammal.breathe());
     }
 
+    @Test
+    public void canTalk(){
+        assertEquals("Hello there", mammal.talk());
+    }
+
 }
