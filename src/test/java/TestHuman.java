@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.awt.image.Kernel;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestHuman {
@@ -27,4 +29,8 @@ public class TestHuman {
         assertEquals("Such a perfect day, the animals in the zoo", Kara.walk());
     }
 
+    @Test
+    public void canTalk(){
+        assertEquals("Hello there", Kara.talk());
+    }
 }
