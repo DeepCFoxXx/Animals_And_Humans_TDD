@@ -1,2 +1,20 @@
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 public class TestMammal {
+
+    Mammal mammal;
+
+    @Before
+    public void before(){
+        mammal = new Mammal();
+    }
+
+    @Test
+    public void canEat(){
+        assertEquals( "Nom Nom", mammal.eat());
+    }
+
 }
