@@ -11,9 +11,15 @@ public class TestChimpanzee {
     public void before(){
         bubbles = new Chimpanzee();
     }
+
     @Test
     public void canEat(){
         assertEquals("Nom Nom", bubbles.eat());
+    }
+
+    @Test
+    public void canBreathe(){
+        assertEquals("In and out", bubbles.breathe());
     }
 
 }
