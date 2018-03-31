@@ -4,4 +4,7 @@ public class Animal {
         return "Nom Nom";
     }
 
+    public String breathe() {
+        return "In and out";
+    }
 }

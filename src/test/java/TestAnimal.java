@@ -17,4 +17,9 @@ public class TestAnimal {
         assertEquals( "Nom Nom", animal.eat());
     }
 
+    @Test
+    public void canBreathe(){
+        assertEquals("In and out", animal.breathe());
+    }
+
 }
