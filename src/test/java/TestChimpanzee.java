@@ -22,4 +22,9 @@ public class TestChimpanzee {
         assertEquals("In and out", bubbles.breathe());
     }
 
+    @Test
+    public void canWalk(){
+        assertEquals("I wanna walk like you", bubbles.walk());
+    }
+
 }
