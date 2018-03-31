@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327698c0-b7a6-4ec4-9f7a-888efe78f6b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestChimpanzee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestChimpanzee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestChimpanzee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestChimpanzee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHuman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,47 +25,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Chimpanzee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Chimpanzee.java">
+      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Human.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
               <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#65#66#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestChimpanzee.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestChimpanzee.java">
+      <file leaf-file-name="TestHuman.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestHuman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
+      <file leaf-file-name="TestChimpanzee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestChimpanzee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="154">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="29" />
               <folding>
-                <element signature="e#46#47#0" expanded="true" />
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -531,6 +535,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestMammal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Chimpanzee.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestChimpanzee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Human.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestHuman.java" />
       </list>
     </option>
   </component>
@@ -603,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChimpanzee.canTalk">
+  <component name="RunManager" selected="JUnit.TestHuman.canEat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -678,13 +684,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestMammal.canTalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHuman.canEat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalsAndHumans_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMammal" />
-      <option name="METHOD_NAME" value="canTalk" />
+      <option name="MAIN_CLASS_NAME" value="TestHuman" />
+      <option name="METHOD_NAME" value="canEat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -747,19 +753,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMammal.canTalk" />
       <item itemvalue="JUnit.TestChimpanzee.canEat" />
       <item itemvalue="JUnit.TestChimpanzee.canBreathe" />
       <item itemvalue="JUnit.TestChimpanzee.canWalk" />
       <item itemvalue="JUnit.TestChimpanzee.canTalk" />
+      <item itemvalue="JUnit.TestHuman.canEat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHuman.canEat" />
         <item itemvalue="JUnit.TestChimpanzee.canTalk" />
         <item itemvalue="JUnit.TestChimpanzee.canWalk" />
         <item itemvalue="JUnit.TestChimpanzee.canBreathe" />
         <item itemvalue="JUnit.TestChimpanzee.canEat" />
-        <item itemvalue="JUnit.TestMammal.canTalk" />
       </list>
     </recent_temporary>
   </component>
@@ -801,6 +807,12 @@
     <history-entry file="TestChimpanzee_canBreathe - 2018.03.31 at 15h 18m 49s.xml">
       <configuration name="TestChimpanzee.canBreathe" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestChimpanzee_canWalk - 2018.03.31 at 15h 19m 49s.xml">
+      <configuration name="TestChimpanzee.canWalk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChimpanzee_canTalk - 2018.03.31 at 15h 21m 32s.xml">
+      <configuration name="TestChimpanzee.canTalk" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -814,12 +826,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27448276" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -842,20 +854,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/untitled/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestHuman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -926,18 +924,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          <folding>
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestChimpanzee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="154">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
