@@ -603,7 +603,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChimpanzee.canWalk">
+  <component name="RunManager" selected="JUnit.TestChimpanzee.canTalk">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -644,13 +644,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestChimpanzee.canWalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChimpanzee.canTalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalsAndHumans_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestChimpanzee" />
-      <option name="METHOD_NAME" value="canWalk" />
+      <option name="METHOD_NAME" value="canTalk" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -661,13 +661,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestMammal.canBreathe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChimpanzee.canWalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalsAndHumans_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMammal" />
-      <option name="METHOD_NAME" value="canBreathe" />
+      <option name="MAIN_CLASS_NAME" value="TestChimpanzee" />
+      <option name="METHOD_NAME" value="canWalk" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -747,19 +747,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMammal.canBreathe" />
       <item itemvalue="JUnit.TestMammal.canTalk" />
       <item itemvalue="JUnit.TestChimpanzee.canEat" />
       <item itemvalue="JUnit.TestChimpanzee.canBreathe" />
       <item itemvalue="JUnit.TestChimpanzee.canWalk" />
+      <item itemvalue="JUnit.TestChimpanzee.canTalk" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestChimpanzee.canTalk" />
         <item itemvalue="JUnit.TestChimpanzee.canWalk" />
         <item itemvalue="JUnit.TestChimpanzee.canBreathe" />
         <item itemvalue="JUnit.TestChimpanzee.canEat" />
         <item itemvalue="JUnit.TestMammal.canTalk" />
-        <item itemvalue="JUnit.TestMammal.canBreathe" />
       </list>
     </recent_temporary>
   </component>
